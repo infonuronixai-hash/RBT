@@ -1,0 +1,10 @@
+pyserial>=3.5
+
+# Optional - chess mode (the CHESS toggle). Pure Python, small.
+chess>=1.10
+
+# Optional - only for the board-vision tools (app/vision_tool.py, app/vision.py) and
+# the CAMERA toggle inside chess mode. The arm application itself runs, and packages,
+# without these.
+opencv-python>=4.8
+numpy>=1.24

@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.log
+
+# Per-machine state the app writes at runtime - never commit another machine's
+# servo trims, board calibration, or taught chess squares.
+app/arm_config.json
+app/board_calibration.json
+app/chess_squares.json
+
+# editor / tooling
+.vscode/
+.idea/
+.claude/

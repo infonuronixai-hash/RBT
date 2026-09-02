@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "name": "demo_pick_and_place",
+  "joints": [
+    "base",
+    "shoulder",
+    "elbow",
+    "wrist_pitch",
+    "wrist_roll",
+    "gripper"
+  ],
+  "duration": 11.5,
+  "frames": [
+    {
+      "t": 0.0,
+      "angles": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        20
+      ],
+      "hold": 0.5,
+      "label": "home"
+    },
+    {
+      "t": 1.2,
+      "angles": [
+        130,
+        70,
+        110,
+        90,
+        90,
+        20
+      ],
+      "hold": 0.3,
+      "label": "approach right"
+    },
+    {
+      "t": 2.0,
+      "angles": [
+        130,
+        55,
+        125,
+        80,
+        90,
+        20
+      ],
+      "hold": 0.2,
+      "label": "descend"
+    },
+    {
+      "t": 2.6,
+      "angles": [
+        130,
+        55,
+        125,
+        80,
+        90,
+        95
+      ],
+      "hold": 0.4,
+      "label": "close gripper"
+    },
+    {
+      "t": 3.4,
+      "angles": [
+        130,
+        85,
+        95,
+        90,
+        90,
+        95
+      ],
+      "hold": 0.2,
+      "label": "lift"
+    },
+    {
+      "t": 5.0,
+      "angles": [
+        50,
+        85,
+        95,
+        90,
+        90,
+        95
+      ],
+      "hold": 0.2,
+      "label": "swing left"
+    },
+    {
+      "t": 5.8,
+      "angles": [
+        50,
+        58,
+        122,
+        80,
+        90,
+        95
+      ],
+      "hold": 0.3,
+      "label": "place"
+    },
+    {
+      "t": 6.3,
+      "angles": [
+        50,
+        58,
+        122,
+        80,
+        90,
+        20
+      ],
+      "hold": 0.4,
+      "label": "release"
+    },
+    {
+      "t": 7.1,
+      "angles": [
+        50,
+        90,
+        90,
+        90,
+        90,
+        20
+      ],
+      "hold": 0.2,
+      "label": "retract"
+    },
+    {
+      "t": 8.3,
+      "angles": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        20
+      ],
+      "hold": 0.5,
+      "label": "home"
+    }
+  ]
+}
